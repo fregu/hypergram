@@ -1,0 +1,35 @@
+:root {
+  --button-background-color: var(--color-action);
+  --button-text-color: var(--color-white);
+  --button-plain-color: var(--color-action);
+  --button-hover-overlay: rgba(0, 0, 0, 0.1);
+  --button-active-overlay: rgba(0, 0, 0, 0.3);
+}
+.Button {
+  font: inherit;
+  line-height: var(--line-height);
+  padding: 0.5em 1em;
+  border: none;
+  cursor: pointer;
+  background: var(--button-background-color);
+  color: var(--button-text-color);
+  text-decoration: none;
+}
+.Button--plain {
+  color: var(--button-plain-color);
+  background: transparent;
+  padding: 0;
+  border: none;
+}
+
+.Button:hover,
+.Button:focus {
+  box-shadow: inset 0 0 0 2em var(--button-hover-overlay);
+}
+.Button:active {
+  box-shadow: inset 0 0 0 2em var(--button-active-overlay);
+}
+.Button:disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}

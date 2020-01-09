@@ -1,0 +1,17 @@
+.Icon {
+  width: 1.5em;
+  height: 1.5em;
+}
+.Icon--large {
+  font-size: 1.5em;
+}
+.Icon--small {
+  font-size: 0.75em;
+}
+
+.Icon svg {
+  height: 100%;
+  width: 100%;
+  fill: currentColor;
+  stroke: currentColor;
+}

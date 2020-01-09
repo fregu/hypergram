@@ -1,0 +1,23 @@
+.CreatePostForm-filters {
+  margin: 0 -0.5em;
+  overflow: auto;
+  display: flex;
+  flex-direction: row;
+  padding: 1em 0;
+}
+.CreatePostForm-filter {
+  margin: 0 0.5em;
+  text-align: center;
+}
+.CreatePostForm-filterImage {
+  flex: 0 0 auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.CreatePostForm-description {
+  border: 1px solid var(--color-grey);
+  margin: 0 0 var(--layout-gutter);
+}

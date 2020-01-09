@@ -1,0 +1,15 @@
+.Comment {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0.5em 0;
+}
+.Comment-comment {
+  flex-grow: 1;
+  margin: 0;
+}
+.Comment-user {
+  color: var(--color-grey);
+  font-style: italic;
+}

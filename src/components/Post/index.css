@@ -1,0 +1,50 @@
+:root {
+  --post-background-color: var(--color-white);
+  --post-border-color: var(--color-light-grey);
+  --post-radius: 2px;
+  --post-width: 500px;
+}
+.Post {
+  max-width: var(--post-width);
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 0 1px var(--post-border-color);
+  border-radius: var(--post-radius);
+  background: var(--post-background-color);
+  color: var(--color-text);
+  text-align: left;
+  overflow: hidden;
+}
+.Post + .Post {
+  margin-top: var(--layout-gutter);
+}
+.Post-header {
+  padding: 1em;
+}
+.Post-user {
+  font-weight: var(--font-weight-bold);
+}
+.Post-comments {
+  border-top: 1px solid var(--post-border-color);
+  margin: 0 -1em;
+}
+.Post-comment {
+  padding: 0.5em 1em;
+}
+.Post-commentForm {
+  border-top: 1px solid var(--post-border-color);
+  margin: 0 -1em;
+}
+.Post-footer {
+  padding: 1em 1em 0;
+}
+.Post-likes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1em;
+}
+.Post-description {
+  margin: 0 0 1em;
+}

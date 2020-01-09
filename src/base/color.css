@@ -1,0 +1,42 @@
+:root {
+  /* Color palette */
+  --color-light-grey: #e6e6e6;
+  --color-grey: #999;
+  --color-white: #fff;
+  --color-black: #262626;
+  --color-blue: #3897f0;
+
+  /* functional colors */
+  --color-link: var(--color-blue);
+  --color-action: var(--color-blue);
+  --color-background: #fafafa;
+  --color-text: var(--color-black);
+}
+
+:root .color-light-grey {
+  color: var(--color-light-grey);
+}
+:root .color-grey {
+  color: var(--color-grey);
+}
+:root .color-white {
+  color: var(--color-white);
+}
+:root .color-black {
+  color: var(--color-black);
+}
+:root .color-blue {
+  color: var(--color-blue);
+}
+:root .color-link {
+  color: var(--color-link);
+}
+:root .color-action {
+  color: var(--color-action);
+}
+:root .color-background {
+  color: var(--color-background);
+}
+:root .color-text {
+  color: var(--color-text);
+}

@@ -1,0 +1,30 @@
+.Textarea {
+  position: relative;
+  text-align: center;
+}
+.Textarea-input {
+  font: inherit;
+  line-height: 1.5em;
+  padding: 1em;
+  box-sizing: border-box;
+  border: 1px solid var(--input-border-color);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  resize: none;
+}
+.Textarea-pre {
+  font: inherit;
+  margin: 0;
+  width: 100%;
+  line-height: 1.5em;
+  min-height: 3.5em;
+  box-sizing: border-box;
+  padding: 1em;
+  visibility: hidden;
+  padding-bottom: 2em;
+  white-space: pre-wrap;
+  text-align: left;
+}

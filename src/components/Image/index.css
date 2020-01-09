@@ -1,0 +1,15 @@
+.Image {
+  display: block;
+  margin: 0;
+  flex: 1 0 auto;
+  width: 100%;
+}
+.Image-image {
+  max-width: 100%;
+  flex: 1 1 auto;
+  object-fit: contain;
+  display: block;
+}
+.Image--cover .Image-image {
+  object-fit: cover;
+}

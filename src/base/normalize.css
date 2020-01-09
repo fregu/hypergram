@@ -1,0 +1,22 @@
+html {
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+  background: var(--color-background);
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0 0 1em;
+}
+
+hr {
+  margin: var(--layout-gutter) 0;
+}
