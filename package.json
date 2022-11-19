@@ -16,7 +16,7 @@
     "jwt-decode": "^2.2.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.3.0"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -44,6 +44,6 @@
   "devDependencies": {
     "eslint-plugin-prettier": "^3.1.2",
     "prettier": "^1.19.1",
-    "react-styleguidist": "^10.4.1"
+    "react-styleguidist": "^13.0.0"
   }
 }
